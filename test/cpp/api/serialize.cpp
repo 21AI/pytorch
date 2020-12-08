@@ -16,6 +16,7 @@
 using namespace torch::test;
 using namespace torch::nn;
 using namespace torch::optim;
+using torch::Tensor;
 
 namespace {
 Sequential xor_model() {

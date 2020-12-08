@@ -15,6 +15,7 @@
 
 using namespace torch::nn;
 using namespace torch::optim;
+using torch::Tensor;
 
 template <typename OptimizerClass, typename Options>
 bool test_optimizer_xor(Options options) {
